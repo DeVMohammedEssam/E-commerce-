@@ -1,0 +1,138 @@
+
+
+/*start header*/
+header {
+
+        border: 2px solid #DDD;
+        height: 300px;
+        background-color: #c5c4c4;
+}
+
+header .title h3{
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 20px
+    
+}
+header .title h3 span{
+    font-size: 65px;
+    color: white;
+}
+header .signin{
+    float: right;
+    margin: 45px;
+    
+}
+
+header .signin form .input {
+     width: 300px;
+    -webkit-transform: translate(.3px,.3px);
+    transform: translate(.3px,.3px);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.6s ease-in-out;
+    margin: 7px;
+    border: 1px solid #f36e46;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    display: inline-block
+    
+}
+
+header .signin form .sub {
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 18px;
+    font-size: 18px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
+    border:1px solid #f36e46;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #000;
+
+    
+    
+}
+
+header .signin p {
+    margin-left: 20px;
+    opacity: .6;
+}
+
+/*end header*/
+
+.featured {
+	padding: 30px 0;
+}
+.featured > h2 {
+	color: #728063;
+	width: 940px;
+	margin: 0 auto 24px;
+	padding: 0 10px;
+}
+.featured ul {
+	list-style: none;
+	padding: 0;
+}
+.featured li {
+	float: left;
+	width: 220px;
+	margin: 0 10px;
+}
+.featured li p {
+	padding-left: 4px;
+}
+.featured li p b {
+	display: block;
+	text-transform: uppercase;
+}
+.featured li .more {
+	margin-left: 4px;
+}
+
+
+
+.clearfix {
+	width: 960px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	clear:both;
+	content:"";
+	display:block;
+	line-height:0;
+	height:1%;
+	visibility:hidden;
+}
+
+.frame1 {
+	height: 150px;
+	width: 203px;
+	margin: 0 auto 6px;
+	padding: 8px 7px 0;
+	text-align: center;
+    background: url(../images/frames.png) no-repeat;
+    background-position: -117px 0;
+}
+
+.box {
+	background-color: #e7e7e7; /* Needed for IE */
+	display: inline-block;
+	-moz-box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+	-webkit-box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+	box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShdow=true, ShadowOpacity=0.80);
+	/* For IE 8 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+	zoom: 1;
+}
+.box  img {
+	display: block;
+	position: relative;
+    border: 0;
+    border: 1px solid rgba(231, 231, 231, 0.8);
+}

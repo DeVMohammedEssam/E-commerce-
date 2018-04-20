@@ -1,0 +1,165 @@
+/*start Global*/
+    *   {  
+            margin: 0;
+            padding: 0;
+            -wedkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            box-sizing:border-box
+        }
+ body
+        {
+
+        font-family: Arial,Tahoma fantasy sans-serif;
+        padding-top: 55px;
+        background-color: beige;
+         
+        }
+
+    ul
+        {
+        list-style: none
+        }
+
+    
+
+
+/*end Global*/
+
+
+
+/*start nav*/
+
+.navbar-brand{
+    margin-right: 3rem;
+    margin-left: 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-right: 2rem;
+}
+.btn:not(:disabled):not(.disabled){
+        margin-right: 1rem
+}
+/*end nav*/
+/*start section*/
+.contenter{
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+}
+
+.contenter .sidebar {
+    float: left;
+    width: 30%;
+    height: 100%
+    
+}
+
+.contenter .sidebar h2 {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font: 19px/24px "Times New Roman", Times, serif;
+    margin-bottom: 0;
+    margin-top: 31px;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 18px;
+    text-align: center;
+    border-bottom: .8px solid #DDD;
+}
+
+.contenter .sidebar .side {
+    display: block;
+    width: 58%;
+    margin: 20px;
+    margin-left: 103px;
+    text-align: center
+    
+    
+    
+}
+
+.contenter .sidebar .side li {
+    margin-bottom: 45px;
+}
+
+.contenter .sidebar .side .address {
+    margin-top: 20px;
+    text-align: center
+}
+
+.contenter .sidebar .side .address p .home {
+    font-weight: bold;
+    
+}
+
+.contenter .main {
+    float: right;
+    width: 70%;
+    height: 100%;
+    direction: rtl;
+    text-align: right;
+    border-left: .8px solid #DDD;
+    
+}
+
+.contenter .main h1 {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font: 35px/30px "Times New Roman", Times, serif;
+    margin-bottom: 0;
+    margin-top: 25px;
+    padding-bottom: 18px;
+    text-align: center;
+    border-bottom: .8px solid #DDD;
+    font-weight: bold
+}
+
+.contenter .main h2 {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.contenter .main .message input  {
+    display: block;
+    margin: 10px 40px;
+    width: 80%;
+    border-radius: 7px;
+    height: 40px;
+}
+.contenter .main .message textarea {
+    display: block;
+    margin: 10px 40px;
+    width: 80%;
+    border-radius: 7px;
+    height: 125px
+}
+
+.contenter .main .message label {
+    margin-right: 58px
+}
+
+.contenter .main .message .sub  {
+    width: 260px;
+    height: 52px;
+    color: #6269bf;
+    font-weight: bold;
+    background-color: #d8cbec;
+}
+/*end section*/
+/*start footer*/
+
+    footer
+        {
+        background-color:#343a40;
+        text-align: center;
+        padding: 20px;
+        color: #A9ACCF;
+        font-weight: 600    
+        }
+
+
+/*end footer*/
+

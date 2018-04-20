@@ -1,0 +1,133 @@
+/*start Global*/
+    *   {  
+            margin: 0;
+            padding: 0;
+            -wedkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            box-sizing:border-box
+        }
+ body
+        {
+
+        font-family: Arial,Tahoma fantasy sans-serif;
+        padding-top: 55px;
+        background-color: beige;
+         
+        }
+
+    ul
+        {
+        list-style: none
+        }
+
+    
+
+
+/*end Global*/
+/*start header*/
+header {
+
+        border: 2px solid #DDD;
+        height: 300px;
+        background-image: url('../hand.jpg');
+        
+}
+/*end heder*/
+
+/*start nav*/
+
+.navbar-brand{
+    margin-right: 3rem;
+    margin-left: 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-right: 2rem;
+}
+.btn:not(:disabled):not(.disabled){
+        margin-right: 1rem
+}
+/*end nav*/
+
+/* start artical*/
+
+    .post   
+        {
+        
+        margin: auto;
+            
+
+        }
+    .post article
+        {
+        padding: 10px;
+        display: inline-block;    
+        overflow: hidden;    
+        border: 1px solid black;
+        margin: 13px;
+        width: 30%;
+        height: 196px  ;
+        -moz-box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+        -webkit-box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+        box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+        border-radius: 20px;
+        }
+    .post article .head
+        {
+        background-color:rgb(236, 198, 140);
+        padding: 10px;
+        border-radius: 15px;
+        text-align: center;
+        color: #343a40;
+
+        }
+    .post article section   
+        {
+        padding: 10px;
+        background-color:b
+        }
+.post form{margin: 20px;}
+.post .child
+        {
+            width: 100%
+    
+        }
+.post .child article
+        {
+           width: 97% ;
+            margin: 13px
+        }
+
+/* end artical*/
+
+
+/*start footer*/
+
+    footer
+        {
+        background-color:#343a40;
+        text-align: center;
+        padding: 20px;
+        color: #A9ACCF;
+        font-weight: 600    
+        }
+
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
